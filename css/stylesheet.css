@@ -1,0 +1,102 @@
+
+body, html{
+	height: 100%;
+	overflow: hidden;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	background: center center no-repeat linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 0, 150, 0.8));
+	color: white;
+
+}
+
+.images {
+	display: flex;
+}
+
+header h1{
+	font-size: 35px;
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+header div{
+	font-size: 25px;
+}
+.container{
+	max-width: 980px;
+	text-align: center;
+	margin: 0 auto;
+	display: table;
+
+}
+
+.ali, .aaron {
+	width: 333px;
+	height: 500px;
+	margin: 20px;
+	display: table;
+	border-radius: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: #ddd;
+	height: 100%;
+	width: 100%;
+	vertical-align: middle;
+	display: table-cell;
+	font-size: 70px;
+	letter-spacing: 2px;
+	font-style: italic;
+	opacity: 0;
+}
+
+a:hover{
+	opacity: 1;
+
+}
+
+.ali:hover{
+	background: linear-gradient(
+      rgba(255, 0, 0, 0.2), 
+      rgba(0, 0, 150, 0.4)
+    ), url(../images/ali.jpg);
+    background-size: cover;
+}
+
+.aaron:hover{
+	background: 
+	linear-gradient(
+      rgba(0, 0, 150, 0.4), 
+      rgba(255, 0, 0, 0.2)
+    ),
+    url(../images/aaron.jpg);
+        background-size: cover;
+}
+
+.ali{
+	background: 
+    linear-gradient(
+      rgba(255, 0, 0, 0.3), 
+      rgba(0, 0, 150, 0.6)
+    ),
+    url(../images/ali.jpg);
+    background-size: cover;
+
+}
+
+.aaron{
+	background: 
+	linear-gradient(
+      rgba(0, 0, 150, 0.6), 
+      rgba(255, 0, 0, 0.3)
+    ),
+    url(../images/aaron.jpg);
+        background-size: cover;
+}
+
+
+

@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Aaron Raymond</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
 </head>
 
 <body>
