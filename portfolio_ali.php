@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Ali Hashim's Portfolio</title>
+	<title>Ali Hashim</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 
 <body>
