@@ -40,6 +40,7 @@
 		<section>
 			<h3>Laboratory for Laser Energetics Research Intern</h3>
 			<p>Designed and developed an image analysis program in MATLAB with openCV for an x-ray spectrometer implemented in LLE lasers to characterize the high-energy-density plasmas created in fusion experiments.
+			</p>
 		</section>
 
 		<section>
