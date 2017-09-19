@@ -12,7 +12,6 @@
 
 	<header>
 		<h1>Ali Hashim</h1>
-		<div>Optical Engineer</div>
 
 		<?php include "navigation.inc";?>
 
