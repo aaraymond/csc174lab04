@@ -217,8 +217,6 @@ main p{
 	}
 
 	body{
-		background: rgba(0, 0, 150, 0.5);
-		color: black;
 		padding: 15px;
 		margin: 0;
 	}
