@@ -11,6 +11,7 @@
 	<header class="home_header">
 		<h1>Welcome</h1>
 		<div>Please select your computer wizard</div>
+		Boo!  I hacked you stuff
 	</header>
 
 	<section class="images">
