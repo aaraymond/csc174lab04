@@ -21,12 +21,20 @@
 		</a>
 		</div>
 		
-
+		
+		
 		<div class="aaron">
 		<a href="portfolio_aaron.php">
 		Aaron Raymond
 		</a>
 		</div>
+
+		<div class="matt">
+		<a href="portfolio_matt.php">
+		Matthew Hood
+		</a>
+		</div>
+		
 		
 	</section>
 

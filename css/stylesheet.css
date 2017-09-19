@@ -39,21 +39,17 @@ header div{
 }
 
 header a:hover{
-		color: rgba(250, 25, 0, 0.5);
+	color: rgba(250, 25, 0, 0.5);
 }
 
 .container{
 	margin: 0 auto;
 	width: 80%;
 	max-width: 960px;
-	
 
 }
 
-
-
-.ali a, .aaron a{
-	
+.images a, .images a{
 	height: 100%;
 	vertical-align: middle;
 	display: table-cell;
@@ -63,15 +59,14 @@ header a:hover{
 	opacity: 0;
 }
 
-.ali a:hover, .aaron a:hover{
+.images a:hover, .images a:hover{
 	opacity: 1;
 
 }
 
 .ali, .aaron {
-	width: 300px;
-	height: 450px;
-	max-width: 960px;
+	width: 320px;
+	height: 480px;
 	margin: 15px;
 	display: table;
 	border-radius: 5px;
@@ -83,6 +78,7 @@ header a:hover{
       rgba(0, 0, 150, 0.4)
     ), url(../images/ali.jpg);
     background-size: cover;
+
 }
 
 .aaron:hover{
@@ -93,6 +89,7 @@ header a:hover{
     ),
     url(../images/aaron.jpg);
         background-size: cover;
+
 }
 
 .ali{
@@ -113,7 +110,7 @@ header a:hover{
       rgba(255, 0, 0, 0.3)
     ),
     url(../images/aaron.jpg);
-        background-size: cover;
+    background-size: cover;
 }
 
 .about{
