@@ -8,7 +8,7 @@
 
 <body>
 	<div class="container">
-	<header>
+	<header class="home_header">
 		<h1>Welcome</h1>
 		<div>Please select your computer wizard</div>
 	</header>
@@ -29,6 +29,10 @@
 		</div>
 		
 	</section>
+
+	<footer>
+	<div>© Ali Hashim, Aaron Raymond 2017</div>
+	</footer>
 	</div><!-- container -->
 </body>
 </html>

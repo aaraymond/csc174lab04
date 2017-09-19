@@ -8,14 +8,19 @@
 </head>
 
 <body>
+	<div class="container">
+
 	<header>
 		<h1>Ali Hashim</h1>
 		<div>Optical Engineer</div>
+
+		<?php include "navigation.inc";?>
+
 	</header>
 
 
 	<!-- About Me Section -->
-	<section>
+	<section class="about">
 		<h2>About Me</h2>
 		<p>
 			I’m a twenty-one year old optical engineer studying at the University of Rochester. I am passionate about manipulating light to create great products! I am also a self-taught mobile application developer and graphic designer and am looking to apply my skills to serve a design, testing, and manufacturing role.
@@ -49,11 +54,7 @@
 			<h3>University of Rochester Medical Center Research Assistant</h3>
 			<p>Conducted biological lab techniques to determine the environmental stressors for age-related macular disorders. </p>
 		</section>
-	</main>
-
-	<!-- My skills sections -->
-	<section>
-		<h2>What can I do for you?</h2>
+	
 
 		<section>
 			<h3>Computer Skills</h3>
@@ -84,12 +85,13 @@
 			</ul>
 		</section>
 
-	</section>
+	</main>
 
 	<!-- Copyright footer -->
 	<footer>
 		<div>© Ali Hashim 2017</div>
 	</footer>
+	</div><!-- container -->
 
 </body>
 </html>

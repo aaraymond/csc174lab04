@@ -8,12 +8,18 @@
 </head>
 
 <body>
+
+
+	<div class="container">
+
 	<header>
 		<h1>Aaron Raymond</h1>
+		<?php include "navigation.inc";?>
+
 	</header>
 
 	<!-- About Me Section -->
-	<section>
+	<section class="about">
 		<h2>About Me</h2>
 
 		<p>I am currently a senior studying Environmental Studies at the University of Rochester. I enjoy combining my photographic skills with my computer skills to create stunning websites and user experiences. I also have experience in the IT world which has helped strengthen my communication and problem solving skills.</p>
@@ -24,7 +30,7 @@
 	<main>
 		<h2>Work Experience</h2>
 
-		<section>
+		<section class="first">
 		<h3>Web Design - Cheyanna's Champions 4 Children</h3>
 
 			<p>I designed multiple web pages using Wordpress templates in conjuction with custom HTML and CSS. I integrated the front-end design with back-end database software and PHP forms.</p>
@@ -39,7 +45,7 @@
 			</ul>
 		</section>
 
-		<section>
+		<section class="second">
 			<h3>Photography - University of Rochester</h3>
 				
 				<p>I captured photos for the University of Rochester Athletic Department website and publications.</p>
@@ -51,7 +57,7 @@
 				</ul>
 		</section>
 
-		<section>
+		<section class="third">
 			<h3>IT Consultant - Dallas Computer Solutions (DCS)</h3>
 
 			<p>Working at DCS expanded my knowledge in communications and problem solving through the installation and management of hundreds of computers. Managing the computer network for a large commercial real estate company was my primary task and in doing so I gained valuable experience in the corporate setting including setting up and ensuring conference rooms were prepared in advance of meetings and all computers were connected and fully prepared for presentations. My talents also included managing customer’s Macs in conjunction with Windows Small Business Server.</p>
@@ -69,6 +75,7 @@
 	<footer>
 		<div>© Aaron Raymond 2017</div>
 	</footer>
+	</div><!-- container -->
 
 </body>
 </html>
