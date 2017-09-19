@@ -41,19 +41,18 @@
 				<li>PHP</li>
 				<li>Photoshop</li>
 				<li>Lightroom</li>
-				<li>test</li>
 			</ul>
 		</section>
 
 		<section class="second">
 			<h3>Photography - University of Rochester</h3>
 				
-				<p>I captured photos for the University of Rochester Athletic Department website and publications.</p>
+				<p>I captured photos for the University of Rochester Athletic Department website and publications. I provided excellent quality and a 3 hour turn around time from completion of event for rapid publishing of content.</p>
 
 				<ul>
-					<li>Professional Event/Wedding Coverage</li>
+					<li>Professional Event Coverage</li>
 					<li>Portraits</li>
-					<li>Landscapes</li>
+					<li>Architectural Photography of Facilities</li>
 				</ul>
 		</section>
 
