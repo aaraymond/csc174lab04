@@ -21,6 +21,11 @@ a, footer, .home_header, .about {
 	text-align: center;
 }
 
+
+footer{
+	margin: 20px;
+}
+
 header h1{
 	font-size: 35px;
 	letter-spacing: 2px;
@@ -31,6 +36,10 @@ header h1{
 header div{
 	font-size: 25px;
 	margin-bottom: 10px;
+}
+
+header a:hover{
+		color: rgba(250, 25, 0, 0.5);
 }
 
 .container{
@@ -133,6 +142,8 @@ main{
     grid-gap: 15px;
 }
 
+
+
 main h2{
 	font-size: 30px;
 	grid-area: header;
@@ -157,4 +168,64 @@ main p{
 .third{
 	grid-area: third;
 }
+
+@media screen and (max-width: 780px){
+	.container{
+		width: 95%;
+		padding: 20px;
+
+	}
+	.about{
+
+		background-color: rgba(255, 255, 255, 0);
+		box-shadow: none;
+		margin: 0 auto;
+		text-align: left;
+		width: 95%;
+	}
+	.images{
+		width: 100%;
+		display: table;
+		justify-content: center;
+	}
+
+	.images div{
+		margin: 0 auto;
+		margin-bottom: 20px; 
+	}
+	main {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.container{
+		width: 100%;
+		padding: 0px;
+	}
+
+	.about{
+
+		padding: 0;
+		margin: 0;
+	}
+
+	.about h2{
+		font-size: 24px;
+		text-align: left;
+		border-bottom: none;
+	}
+
+	body{
+		background: rgba(0, 0, 150, 0.5);
+		color: black;
+		padding: 15px;
+		margin: 0;
+	}
+
+	header a{ color: rgb(250, 150, 0);}
+
+	
+
+
 
