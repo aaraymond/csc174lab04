@@ -1,16 +1,17 @@
+/*
+Filename: stylesheet.css
+Authors: Ali Hashim, Aaron Raymond, Matt Hood
+Date Created: 9/16/17
+CSC 174
+*/
 
+/* ============================ Typography ===============================*/
 
 body{
 	font-family: 'Raleway', sans-serif;
 	background: fixed linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 0, 150, 0.8));
 	color: white;
 	margin: 0;
-}
-
-.images {
-	display: flex;
-	justify-content: center;
-
 }
 
 a{
@@ -42,6 +43,8 @@ header a:hover{
 	color: rgba(250, 25, 0, 0.5);
 }
 
+/*============================= Container ===============================*/
+
 .container{
 	margin: 0 auto;
 	width: 80%;
@@ -49,6 +52,13 @@ header a:hover{
 
 }
 
+/* ======================= Home Navigation Images ========================*/
+
+.images {
+	display: flex;
+	justify-content: center;
+
+}
 
 .images a{
 	height: 100%;
@@ -75,6 +85,8 @@ header a:hover{
 	border-radius: 5px;
 }
 
+/* ========================= Home Navigation Hover ========================*/
+
 .ali:hover{
 	background: linear-gradient(
       rgba(255, 0, 0, 0.2), 
@@ -94,6 +106,18 @@ header a:hover{
         background-size: cover;
 
 }
+
+.matt:hover{
+	background: 
+    linear-gradient(
+      rgba(255, 0, 0, 0.2), 
+      rgba(0, 0, 150, 0.4)
+    ),
+    url(../images/matt.jpg);
+    background-size: cover;
+}
+
+/* ================ Home Navigation Background Gradient ===================*/
 
 .ali{
 	background: 
@@ -126,15 +150,7 @@ header a:hover{
     background-size: cover;
 }
 
-.matt:hover{
-	background: 
-    linear-gradient(
-      rgba(255, 0, 0, 0.2), 
-      rgba(0, 0, 150, 0.4)
-    ),
-    url(../images/matt.jpg);
-    background-size: cover;
-}
+/* ============================ About Me Section =========================*/
 
 .about{
 	width: 50%;
@@ -152,6 +168,8 @@ header a:hover{
 	border-bottom: solid white 1px;
 }
 
+/* ============================= Main Content ============================*/
+
 main{
 	display: grid;
     grid-template-areas:"header header"
@@ -161,8 +179,6 @@ main{
     grid-template-rows: 50px 1fr 0.5fr;
     grid-gap: 15px;
 }
-
-
 
 main h2{
 	font-size: 30px;
@@ -177,6 +193,9 @@ main p{
 	text-align: justify-all;
 }
 
+
+/* ============================= CSS Grid ================================*/
+
 .first{
 	grid-area: first;
 }
@@ -188,6 +207,8 @@ main p{
 .third{
 	grid-area: third;
 }
+
+/* ============================ Tablet View ==============================*/
 
 @media screen and (max-width: 960px){
 	.container{
@@ -217,6 +238,8 @@ main p{
 		display: inline-block;
 	}
 }
+
+/* =========================== Mobile Phone View ==========================*/
 
 @media screen and (max-width: 480px){
 	.container{

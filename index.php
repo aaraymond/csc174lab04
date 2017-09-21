@@ -13,7 +13,8 @@
 		<div>Please select your computer wizard</div>
 	</header>
 
-	<section class="images">
+	<!-- Home Page Navigation -->
+	<section class="images"> 
 		
 		<div class="ali">
 		<a href="portfolio_ali.php">
