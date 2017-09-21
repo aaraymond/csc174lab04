@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>CSC174, Hashim and Raymond Portfolios</title>
+	<title>CSC174, Portfolio Websites</title>
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 

@@ -34,10 +34,6 @@ header h1{
 	text-transform: uppercase;
 }
 
-header div{
-	font-size: 25px;
-	margin-bottom: 10px;
-}
 
 header a:hover{
 	color: rgba(250, 25, 0, 0.5);
@@ -50,6 +46,20 @@ header a:hover{
 	width: 80%;
 	max-width: 960px;
 
+}
+
+/*============================= Navigation ===============================*/
+
+nav ul{
+	list-style: none;
+	display: flex;
+	font-size: 15px;
+	margin-left: -40px;
+
+}
+
+nav li{
+	margin-right: 20px;
 }
 
 /* ======================= Home Navigation Images ========================*/
@@ -177,7 +187,7 @@ main{
                         "third third";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px 1fr 0.5fr;
-    grid-gap: 15px;
+    grid-gap: 25px;
 }
 
 main h2{
@@ -211,6 +221,10 @@ main p{
 /* ============================ Tablet View ==============================*/
 
 @media screen and (max-width: 960px){
+	.images{
+		margin-top: 20px;
+	}
+	
 	.container{
 		width: 95%;
 		padding: 20px;
@@ -242,13 +256,18 @@ main p{
 /* =========================== Mobile Phone View ==========================*/
 
 @media screen and (max-width: 480px){
+	
+
+	.images a{
+		opacity: 1;
+	}
+
 	.container{
 		width: 100%;
 		padding: 0px;
 	}
 
 	.about{
-
 		padding: 0;
 		margin: 0;
 	}
@@ -264,7 +283,7 @@ main p{
 		margin: 0;
 	}
 
-	header a{ color: rgb(250, 150, 0);}
+}
 
 	
 
