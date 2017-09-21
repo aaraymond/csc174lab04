@@ -19,7 +19,7 @@ a{
 }
 a, footer, .home_header, .about {
 	text-align: center;
-}
+} 
 
 
 footer{
@@ -49,7 +49,8 @@ header a:hover{
 
 }
 
-.images a, .images a{
+
+.images a{
 	height: 100%;
 	vertical-align: middle;
 	display: table-cell;
@@ -64,9 +65,11 @@ header a:hover{
 
 }
 
-.ali, .aaron {
-	width: 320px;
-	height: 480px;
+.ali, .aaron, .matt {
+	min-width: 300px;
+	min-height: 450px;
+	width: 30vh;
+	height: 45vh;
 	margin: 15px;
 	display: table;
 	border-radius: 5px;
@@ -110,6 +113,26 @@ header a:hover{
       rgba(255, 0, 0, 0.3)
     ),
     url(../images/aaron.jpg);
+    background-size: cover;
+}
+
+.matt{
+	background: 
+    linear-gradient(
+      rgba(255, 0, 0, 0.3), 
+      rgba(0, 0, 150, 0.6)
+    ),
+    url(../images/matt.jpg);
+    background-size: cover;
+}
+
+.matt:hover{
+	background: 
+    linear-gradient(
+      rgba(255, 0, 0, 0.2), 
+      rgba(0, 0, 150, 0.4)
+    ),
+    url(../images/matt.jpg);
     background-size: cover;
 }
 
@@ -166,7 +189,7 @@ main p{
 	grid-area: third;
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 960px){
 	.container{
 		width: 95%;
 		padding: 20px;

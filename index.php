@@ -21,8 +21,6 @@
 		</a>
 		</div>
 		
-		
-		
 		<div class="aaron">
 		<a href="portfolio_aaron.php">
 		Aaron Raymond
@@ -39,7 +37,7 @@
 	</section>
 
 	<footer>
-	<div>© Ali Hashim, Aaron Raymond 2017</div>
+	<div>© Ali Hashim, Aaron Raymond, Matthew Hood 2017</div>
 	</footer>
 	</div><!-- container -->
 </body>
