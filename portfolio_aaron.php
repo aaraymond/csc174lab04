@@ -26,9 +26,9 @@
 	</section>
 
 
-	<!-- Main Work Experience -->
+	<!-- Main Experience -->
 	<main>
-		<h2>Work Experience</h2>
+		<h2>Experience</h2>
 
 		<section class="first">
 		<h3>Web Design - Cheyanna's Champions 4 Children</h3>
